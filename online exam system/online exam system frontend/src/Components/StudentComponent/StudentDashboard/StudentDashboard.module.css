@@ -1,0 +1,373 @@
+
+ body{
+    margin: 0px;
+}
+
+ 
+ #header{
+      /* background-color: #2e6da4dc; */
+      background-color: rgba(0, 0, 0, 0.9);
+      
+      
+      float: left;
+      height: 50px;
+      width: 100%;
+
+      position: fixed;
+      z-index: 1;
+
+  }
+
+/* --------------------------------------------------------- */
+
+   #headerHeadingBox{
+      /* background-color: cyan; */
+      float: left;
+      height: 50px;
+      width: 400px;
+      color: rgba(255, 255, 255, 0.95);
+      letter-spacing: 1.6;
+      font-size: x-large;
+      margin-left:40px;
+  }
+
+
+     
+   #headerHeadingBox h3{
+     margin: 0px;
+     padding-top: 10px;
+     padding-left: 10px;
+   }
+
+/* --------------------------------------------------------- */
+
+   #headerMenuBox{
+      /* background-color: red; */
+      float:right;
+      height: 50px;
+      width: 400px;
+      margin-right: 30px;
+      text-align: center;
+
+      
+  }
+
+
+  #headerMenuBox a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    height: 100%;
+    color: white;
+    margin-left: 15px;
+  }
+
+
+
+#headerMenuBox a span{
+        position: relative;
+        top: 10px;
+}
+
+ 
+   #headerMenuBox a:hover{
+        color: rgba(240, 188, 188, 0.87);
+        text-decoration: underline;
+        cursor:pointer;
+    }
+
+
+
+       
+/* ------------------------------------------------------------------------- */
+
+
+    #displayBox{
+          /* background-color: yellow; */
+          float: left;
+          min-height: 500px;
+          width: 1050px;
+
+          position: relative;
+          top: 55px;
+          
+          margin-top: 20px;
+          margin-left: 20px;
+    }
+
+
+    /* -------------------Student Dashboard subject component css-------------------------- */
+
+
+    #displayBoxHeadingBox{
+        float: left;
+        width: 100%;
+    }
+
+
+    #displayBoxHeadingBox h1{
+        margin: 0px;
+        padding-left:70px ;
+    }
+
+
+
+    #displayBoxSubjectBox{
+       background-color: whitesmoke;
+
+       border: 1px solid black;
+       float: left;
+       width:350px;
+       height: 140px;
+
+       margin-top: 20px;
+       margin-left: 60px;
+    }
+
+
+    #subjectText{
+       float: left;
+       width:100%;
+       height: 50%;
+       border-bottom: 1px solid black;
+       text-align: center;
+    }
+
+
+    #subjectText span{
+        font-size: 23px;
+        position: relative;
+        top: 23px;
+    }
+
+
+    #subjectButton{
+       float: left;
+       width:100%;
+       height: 50%;
+       text-align: center;
+    }
+
+    #subjectButton button{
+       font-size: 17px;
+       position: relative;
+       top: 17px;
+       color:#fff;
+       background-color:#337ab7;
+       height: 35px;
+       border-radius: 7px;
+       padding: 6px 12px;
+       cursor: pointer;
+       border: 1px solid transparent;    
+    }
+
+
+       /* ----------------------- Result css ------------------------------------- */
+
+    
+
+        #displayHeadingBox h2{
+        margin-left: 10px;
+        font-size: 30px;
+       /* background-color: yellow; */
+     }
+
+
+ 
+ 
+ #tableBox{
+     /* background-color: cyan; */
+     width: 1120px;
+     float:left;
+     margin-left: 10px;
+     font-size: 20px;
+ }
+   
+    table{
+      width: 100%;
+      border-collapse: collapse;
+     
+    }
+
+   table,tr,td,th{
+     border: 1px solid black;
+   }
+ 
+   #center{
+     text-align: center;
+   }
+ 
+   tr{
+     text-align: center;
+   }
+
+   th{
+    height: 35px;
+   }
+ 
+    tr td button{
+      color: white;
+      background-color: black;
+      height: 35px;
+      min-width: 90px;
+      border-radius: 7px;
+    }
+ 
+    tr td button:hover{
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+
+
+      /* ----------------------- to go Exam css ------------------------------------- */
+
+      #displayBoxExamBox{
+       
+         border: 1px solid black;
+         float: left;
+         width:350px;
+         min-height: 240px;
+ 
+         margin-top: 20px;
+         margin-left: 60px;
+      }
+ 
+      #div1{
+          width: 100%;
+          min-height: 60px;
+          background-color: whitesmoke;
+          float: left;
+      }
+ 
+ 
+        #div1 span{
+         font-size: 25px;
+         position: relative;
+         top: 15px;
+        }
+ 
+      #div2,#div3,#div4{
+          width: 100%;
+          min-height: 40px;
+          float: left;
+      }
+ 
+      #div1,#div2,#div3,#div4{
+         border-bottom: 1px solid black ;
+     }
+ 
+ 
+     #div2 span , #div3 span , #div4 span{
+         display: inline-block;
+         font-size: 20px;
+         padding-bottom: 5px;
+         padding-top: 5px;
+        }
+ 
+ 
+        #div5{
+          text-align: center;
+           width: 100%;
+          min-height: 60px;
+          float: left;
+        }
+ 
+          
+        #div5 button{
+         font-size: 17px;
+         position: relative;
+         top: 11px;
+         color:#fff;
+         background-color:#337ab7;
+         height: 35px;
+         border-radius: 7px;
+         padding: 6px 12px;
+         cursor: pointer;
+          border: 1px solid transparent;
+           
+        }
+
+
+        /* --------------------------  test css---------------------------------------- */
+ 
+ 
+     
+
+        #displayBoxQuestionHeadingBox{
+         /* background-color: cyan; */
+         float: left;
+         width: 1100px;
+         height:50px;
+         border-bottom: 1px solid black;
+         margin-left:70px ;
+     }
+
+      #displayBoxQuestionHeadingBox h1{
+            margin: 0px;
+       }
+
+
+     #displayBoxQuestionBox{
+        /* background-color: yellow; */
+        float: left;
+        width:1100px;
+        margin-top: 20px;
+        margin-left: 70px;
+
+        border-bottom: 1px solid black;
+     }
+
+
+     #divQuestion{
+         width: 100%;
+         min-height: 60px;
+         float: left;
+     }
+
+
+       #divQuestion span{
+        font-size: 25px;
+        position: relative;
+        top: 15;
+       }
+
+
+       #displayBoxQuestionBox input{
+             margin-bottom: 20px;
+         }
+
+         #displayBoxQuestionBox label{
+            font-size: 16px;
+        }
+
+
+
+
+
+       #submitExam{
+          width: 1100px;
+          float: left;
+
+          margin-left: 70px;
+          margin-top: 20px;
+          margin-bottom:40px;
+       }
+
+         
+       #submitExam button{
+        font-size: 17px;
+        position: relative;
+        top: 11;
+        color:#fff;
+        background-color:#337ab7;
+        height: 35px;
+        border-radius: 7px;
+        padding: 6px 12px;
+        cursor: pointer;
+         border: 1px solid transparent;
+          
+       }
+
+
+    
+
+ 

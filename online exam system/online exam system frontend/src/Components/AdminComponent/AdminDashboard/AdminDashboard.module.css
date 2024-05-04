@@ -1,0 +1,148 @@
+
+  body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+  background-color: rgba(0, 0, 0, 1);
+ float: left;
+ height: 50px;
+ width: 100%;
+  position: fixed;
+ z-index: 1;
+}
+
+/* --------------------------------------------------------- */
+
+#headerHeadingBox{
+ /* background-color: cyan; */
+ float: left;
+ height: 50px;
+ letter-spacing: 1.4;
+ font-size: 20px;  
+}
+
+#headerHeadingBox h3{
+margin: 0px;
+padding-top: 10px;
+padding-left: 10px;
+color: rgba(255, 255, 255, 0.90);
+}
+
+/* --------------------------------------------------------- */
+
+#headerMenuBox{
+ /* background-color: red; */
+ float:right;
+ height: 50px;
+ text-align: center;
+ margin-right: 40px;
+}
+
+
+#headerMenuBox a{
+text-decoration: none;
+display: inline-block;
+font-size: x-large;
+height: 100%;
+color: rgba(255, 255, 255, 0.6);
+margin-left: 15px;
+}
+
+#headerMenuBox a span{
+   position: relative;
+   top:10px;
+}
+
+
+#headerMenuBox a:hover{
+   color: white;
+   cursor: pointer;
+}
+
+
+/* --------------------------------------------------------- */
+
+#content{
+  background-color: yellow;
+  width: 1340;
+}
+
+#sideMenubar{
+  background-color: black;
+  width: 200px;
+  height: 520px;
+  float: left;
+ 
+  position: fixed;
+  top: 50px;
+  height: 100%;
+}
+
+
+#sideMenubarImageBox{
+  width: 200px;
+  float: left;
+  background-color: black;
+  text-align: center;
+  margin-top: 10px;
+} 
+
+
+#sideMenubarList{
+width: 200px;
+height: 400px;
+float: left;
+font-size: large;
+background-color: black;
+
+margin-top: 20px;
+
+}
+
+
+#sideMenubarList button{
+ text-decoration: none;
+ display:block;
+ margin-bottom: 20px;
+ color: rgba(255, 255, 255, 0.6);
+ margin-left: 12px;
+
+ background-color: transparent;
+ outline: 0;
+ border: transparent;
+
+ font-size: large;
+}
+
+#sideMenubarList button i{
+padding-right: 10px;
+}
+
+#sideMenubarList button:hover{
+color: white;
+cursor: pointer;
+
+}
+
+
+.removeUnderline{
+  text-decoration: none;
+}
+
+
+ 
+     
+   
+
+#display{
+  /* background-color: yellow; */
+  width: 1050px;
+  min-height: 560px;
+  float: left;
+  
+  position: relative;
+  top:50px;
+  left:200px;
+} 

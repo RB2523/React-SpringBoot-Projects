@@ -1,0 +1,64 @@
+
+
+
+
+
+#displayHeadingBox h1{
+    margin-left: 10px;
+   display: inline-block;
+}
+
+
+#box1,
+#box2,
+#box3{
+    background-color: cyan;
+    height: 90px;
+    width: 32%;
+    float:left;
+    margin-left: 10px;
+    color: white;
+}
+
+
+#box1,
+#box3{
+   background-color: rgba(0, 0, 255, 0.6);
+}
+
+#box2{
+   background-color:rgb(231, 192, 61);
+}
+
+#box1 p,
+#box2 p,
+#box3 p{
+    font-size: large;
+    text-align: center;
+}
+
+
+#box1 button,
+#box2 button,
+#box3 button{
+   width: 100%;
+   height: 30px;
+   text-align: center;
+   font-size: x-large;
+   background-color: transparent;
+   border-color: transparent;
+   border-top: 1px solid black;
+   color: rgba(255, 255, 255, 0.7);
+   outline: 0px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+ 
+
+#box1 button:hover,
+#box2 button:hover,
+#box3 button:hover{
+    color: white;
+    cursor:pointer;
+}
